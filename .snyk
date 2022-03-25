@@ -1,0 +1,38 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@psf/bch-js > apidoc > lodash':
+        patched: '2022-03-25T23:25:27.920Z'
+    - standard > eslint > lodash:
+        patched: '2022-03-25T23:25:27.920Z'
+    - '@psf/bch-js > apidoc > apidoc-core > lodash':
+        patched: '2022-03-25T23:25:27.920Z'
+    - standard > eslint > inquirer > lodash:
+        patched: '2022-03-25T23:25:27.920Z'
+    - standard > eslint > table > lodash:
+        patched: '2022-03-25T23:25:27.920Z'
+    - '@psf/bch-js > bip32-utils > standard > eslint > lodash':
+        patched: '2022-03-25T23:25:27.920Z'
+    - '@psf/bch-js > bip32-utils > standard > eslint-plugin-import > lodash':
+        patched: '2022-03-25T23:25:27.920Z'
+    - '@psf/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > lodash':
+        patched: '2022-03-25T23:25:27.920Z'
+    - '@psf/bch-js > bip32-utils > standard > eslint > inquirer > lodash':
+        patched: '2022-03-25T23:25:27.920Z'
+    - '@psf/bch-js > bip32-utils > standard > eslint > table > lodash':
+        patched: '2022-03-25T23:25:27.920Z'
+    - '@psf/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > lodash':
+        patched: '2022-03-25T23:25:27.920Z'
+    - '@psf/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > lodash':
+        patched: '2022-03-25T23:25:27.920Z'
+    - '@psf/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash':
+        patched: '2022-03-25T23:25:27.920Z'
+    - '@psf/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash':
+        patched: '2022-03-25T23:25:27.920Z'
+    - '@psf/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2022-03-25T23:25:27.920Z'
+    - '@psf/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2022-03-25T23:25:27.920Z'
