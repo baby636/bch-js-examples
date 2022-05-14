@@ -33,7 +33,7 @@
     }
   },
   "devDependencies": {
-    "husky": "^4.2.5",
+    "husky": "^4.3.7",
     "standard": "^14.3.3"
   }
 }
